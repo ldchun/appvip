@@ -1,0 +1,9 @@
+<view class="sl-bd">
+  <view class="play-body">
+    <view class="play-tips"> 请点击复制按钮拷贝链接，然后在本地浏览器中打开链接在线观看【若复制按钮点击无效请更新微信到最新版本】</view>
+    <view class="play-url">{{url}}</view>
+    <view class="play-copy">
+      <view class="slbtn" bindtap="copyUrl">复制</view>
+    </view>
+  </view>
+</view>

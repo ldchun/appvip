@@ -1,0 +1,87 @@
+<view class="sl">
+  <view class="sl-bd">
+    <view class="any-body">
+      <view class="any-logo text-center">
+        <image src="../../image/vip-logo.png" mode="aspectFit"></image>
+      </view>
+      <view class="any-con">
+        <view class="sl-search">
+          <image class="search-ico" src="../../image/ico-mv.png" mode="aspectFit"></image>
+          <input type="text" class="search-input" id="inValue" bindinput="getInValue" value="" placeholder="播放支持网址：爱奇艺视频、腾讯视频、芒果视频、优酷视频等。"/> 
+          <view class="search-btn" bindtap="goVipPlay">VIP播放</view>
+        </view>
+        <view class="any-feature">
+          <view class="priv">
+            <view class="priv-title">
+              <view class="tit-line"></view>
+              <view class="tit-text">功能特权</view>
+            </view>
+            <view class="priv-con">
+              <view class="priv-list clearfix">
+                <view class="priv-li">
+                  <image class="feaicon logo-max" src="../../image/feaico-ad.png" mode="aspectFit"></image>
+                  <view class="li-text">跳过广告</view>
+                </view>
+                <view class="priv-li">
+                  <image class="feaicon" src="../../image/feaico-vip.png" mode="aspectFit"></image>
+                  <view class="li-text">VIP片库</view>
+                </view>
+                <view class="priv-li">
+                  <image class="feaicon" src="../../image/feaico-pianku.png" mode="aspectFit"></image>
+                  <view class="li-text">免费观看</view>
+                </view>
+                <view class="priv-li">
+                  <image class="feaicon" src="../../image/feaico-new.png" mode="aspectFit"></image>
+                  <view class="li-text">院线新片</view>
+                </view>
+              </view>
+            </view>
+          </view>
+
+
+          <view class="priv">
+            <view class="priv-title">
+              <view class="tit-line"></view>
+              <view class="tit-text">支持网站</view>
+            </view>
+            <view class="priv-con">
+              <view class="priv-cells">
+                <view class="priv-cell">
+                  <view class="priv-link">
+                    <image src="../../image/logo-iqiyi.png" mode="aspectFit"></image>
+                  </view>
+                </view>
+                <view class="priv-cell">
+                  <view class="priv-link">
+                    <image src="../../image/logo-youku.png" mode="aspectFit"></image>
+                  </view>
+                </view>
+                <view class="priv-cell">
+                  <view class="priv-link">
+                    <image src="../../image/logo-qqtv.png" mode="aspectFit"></image>
+                  </view>
+                </view>
+                <view class="priv-cell">
+                  <view class="priv-link">
+                    <image src="../../image/logo-mgtv.png" mode="aspectFit"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+          </view>
+
+          <view class="priv">
+            <view class="priv-title">
+              <view class="tit-line"></view>
+              <view class="tit-text">使用教程</view>
+            </view>
+            <view class="priv-con text-center">
+              <image src="../../image/vip-use.gif" mode="widthFix"></image>
+            </view>
+          </view>
+
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
